@@ -1,52 +1,11 @@
-/* styles.css */
+.custom-header {
+    background-color: #494949; /* Grey color */
+}
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    background-image: url('images/rajagiri.jpeg'); /* Assuming the image is in an 'images' folder */
+    background-size: cover; /* Adjusts the background image size */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
-
-#header-1 {
-    background-color: #333;
-    padding: 10px;
-}
-
-#header-1 .logoimg img {
-    width: 150px;
-}
-
-.mydiv a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-.mydiv {
-    background-color: #444;
-    padding: 10px;
-    text-align: center;
-}
-
-#main-content {
-    padding: 20px;
-}
-
-#wholediv-0 {
-    background-color: #f1f1f1;
-    padding: 20px;
-}
-
-.contactus, .newshead, .findstore {
-    margin-bottom: 20px;
-}
-
-.links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: blue;
-}
-
-.inputmail .mailadd {
-    padding: 10px;
-    width: 100%;
-    box-sizing: border-box;
+.white-text {
+    color: rgb(3, 8, 31); /* Set text color to white */
 }
